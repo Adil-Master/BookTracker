@@ -20,6 +20,16 @@ def main():
 
         if action == "1":
             add_book()
+        elif action == "2":
+            ShowBooks()
+        elif action == "3":
+            arithmetic_mean()
+        elif action == "4":
+            authors_count()
+        elif action == "5":
+            delete()
+        elif action == "6":
+            exit()
 
 def add_book():
     is_original = True
