@@ -18,3 +18,5 @@
 |4.| - | Запустите программу при помощи комманды _**python main.py**_  |
 
 ## Внешний вид программы
+<img width="750" height="572" alt="image" src="https://github.com/user-attachments/assets/8647ce31-ec87-4eb5-989e-001ce458744b" />
+<img width="750" height="572" alt="image" src="https://github.com/user-attachments/assets/d77c7f17-7b6a-4a03-b3f7-969af90ac7d1" />
