@@ -18,5 +18,26 @@ def main():
         print(menu)
         action = input(">")
 
+        if action == "1":
+            add_book()
+
+def add_book():
+    is_original = True
+    books = load_books()
+    book = {
+        "Автор" : input("Введите автора: "),
+        "Название" : input("Введите название:"),
+        "Оценка" : input("Введите оценку: "),
+        "Дата прочтения" : input("Введите дату прочтения: ")
+    }
+
+    for i in books:
+        if i['Автор'] == book['Автор'] and i['Название'] == book['Название']:
+            print("Отказано, так как данное произведение уже добавлено в список книг.")
+            is_original = False
+
+    if is_original:
+        books.append(book)
+        save_books(books)
 if __name__ == "__main__":
     main()
